@@ -1,2 +1,2 @@
 #!/bin/bash
-groups $USER | tr ' ' '\n'
+sudo groups $USER | tr ' ' '\n'
