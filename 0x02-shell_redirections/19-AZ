@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -cxvFf <(grep -E '[Ac]' words.txt | sort | uniq -d) words.txt
+tr "A" "Z" | tr "c" "e"
